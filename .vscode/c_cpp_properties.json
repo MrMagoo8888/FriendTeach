@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\g++"
+        },
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        },
+        {
+            "name": "win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerArgs": [
+                "\"--sysroot\", \"<arg>\""
+            ],
+            "cppStandard": "c++26",
+            "cStandard": "c23",
+            "compilerPath": "C:\\\\TDM-GCC-64\\bin\\\\g++"
+        }
+    ],
+    "version": 4
+}

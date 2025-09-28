@@ -1,4 +1,3 @@
-//hello
 
 #include <iostream>
 #include <stdio.h>
